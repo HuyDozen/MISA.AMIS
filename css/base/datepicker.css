@@ -1,0 +1,28 @@
+input[type="date"]{
+    color: #212121;
+    text-align: left;
+    font-size: 14;
+    font-weight: 400;
+    font-family: notosans-regular;
+    background-color: #ffffff;
+    height: 32px;
+    width: 140px;
+    border: none;
+    padding: 10px 0 9px 12px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+input[type="date"]:focus{
+    border: 1px solid #50b83c;
+}
+::-webkit-calendar-picker-indicator{
+    /* background-color: #000000;
+    margin: 8px 6px 8px 0;
+    height: 24px;
+    width: 24px;
+    background: url('imgs/Sprites.64af8f61.svg') no-repeat -120px -307px; */
+    cursor: pointer;
+}
+.date-type:focus{
+    border: 1px solid #50b83c;
+}

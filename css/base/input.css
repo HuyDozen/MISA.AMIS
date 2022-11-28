@@ -1,0 +1,147 @@
+@import url(/css/base/icon.css);
+.inpt {
+	position: relative;
+	min-width: 250px;
+	height: 36px;
+	padding: 7px 0 7px 8px;
+	border-radius: 4px;
+	border: 1px solid #e6e6e6;
+	
+    /* margin-top: 8px; */
+}
+.input-dlg{
+	width: auto;
+	height: 32px;
+	border: 1px solid #babec5;
+	background-color: #ffffff;
+	border-radius: 4px;
+	padding: 0 12px 0 10px;
+	margin-top: 8px;
+}
+input[type="date"]:focus{
+	border: 1px solid red;
+}
+
+.input-dlg-id{
+	width: 151px;
+}
+.input-dlg-address{
+	width: 100%;
+}
+.input-dlg-phone-mail{
+	width: 197px;
+}
+.input-dlg-name{
+	width: 235px;
+}
+.input-dlg-full-width{
+	width: 392px;
+}
+.input-dlg-identify{
+	width: 245px;
+}
+.inpt::placeholder{
+	color: #999999;
+  	font-size: 14px;
+	
+}
+
+.input-dlg:hover{
+	box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.inpt:hover{
+	border-color: #EBEBEB;
+	background-color: #F6F6F6;
+  	
+}
+.inpt,.input-dlg:focus{
+	border: 1px solid #50b83c;
+  	outline: none;
+}
+
+.input--icons{
+	padding-left: 25px;
+	min-width: 250px;
+}
+.input--icons{
+	position: relative;
+}
+
+.input--icons > .icon-tagl{
+	position: absolute;
+	top: 9px;
+	right:12px;
+}
+
+div.tooltip {
+    text-decoration: none;
+}
+div.tooltip:hover {
+    position: relative;
+}
+div.tooltip span {
+    display: none;
+}
+div.tooltip:hover span {
+    padding: 7px 8px 6px 8px;
+    display: block;
+    z-index: 100;
+    background: black;
+    left: 0px;
+    /* margin: 15px; */
+    position: absolute;
+    top: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    color: #E0E0E0;
+}
+
+div.tooltip {
+    text-decoration: none;
+}
+div.tooltip:hover {
+    position: relative;
+}
+div.tooltip .tooltipDlg {
+    display: none;
+}
+div.tooltip:hover .tooltipDlg {
+    padding: 7px 8px 6px 8px;
+    display: block;
+    z-index: 100;
+	width: auto;
+    background: black;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+	width: 84px;
+	transform: translate(-50%, 50%);
+	word-wrap:normal;
+    /* text-decoration: none; */
+    font-weight: 500;
+    font-size: 13px;
+    color: #E0E0E0;
+}
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	
+	border-bottom: 5px solid black;
+  }
+div.tooltip .arrow-up{
+	display: none;
+}
+div.tooltip:hover .arrow-up{
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 83%;
+	transform: translate(-50%, 50%);
+}
+.input-EmplPosition{
+	width: 392px;
+}

@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.ct__item{
+    display: flex;
+    flex-wrap: wrap;
+    order: 2;
+    width: calc(100% - 200px);
+    
+    align-content: flex-start;   
+    
+}
+.ct__sidebar{
+    background-color: #38393d;
+    color: #111111;
+    height: 100vh;
+    width: 200px; 
+    order: 1;
+    color: #fff;
+    font-family: notosans-semibold;
+    overflow: auto;
+}
+
+.ct__navi{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+    order: 1;
+    
+}
+
+
+.ct__maincontent{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content:space-around;
+    padding: 0 24px;
+    background-color: #eceef1;    
+    order: 2;
+    height: calc(100vh - 56px);
+    width: 100%;
+    
+    
+}
+
+.dlg__del-header--button{
+   padding-top: 10px;
+}
+
+.ct__sidebar{
+    position: sticky; 
+    top: 0%;
+}
+

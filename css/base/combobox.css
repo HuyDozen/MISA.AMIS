@@ -1,0 +1,40 @@
+/* select{
+	margin-top: 8px;
+  	max-width: 300px;
+	height: 24px;
+  	padding: 0 12px;
+  	border-radius: 4px;
+  	border: none;
+    transform: translateY(-10%);
+} */
+
+option{
+    border-radius: 4px;
+}
+
+.options *
+{
+    border-radius: 4px;
+    background-color: rebeccapurple;
+    padding: 8px 20px
+}
+
+.options:hover{
+    background-color: red;
+}
+
+.select-option{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 30px;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #999;
+}
+.select-option:focus{
+    border: 1px solid #50b83c;
+}
+.select-option::selection{
+    border: 1px solid #50b83c;
+}

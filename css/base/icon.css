@@ -1,0 +1,367 @@
+.icon-sear,.icon-close,.icon-question:hover{
+    cursor: pointer;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid #BDBDBD;
+}
+
+.checkbox-tbl{
+    width: 18px;
+    height: 18px;
+    border: 1px solid #afafaf;
+    cursor: pointer;
+    margin-left: 2px;
+    border-radius: 4px;
+    
+}
+.icon-calender{
+    background: url('imgs/Sprites.64af8f61.svg') no-repeat -120px -307px;
+}
+.control-icon{
+    position: relative;
+    height: 16px;
+    width: 26px;
+    align-items: center;
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+    cursor: pointer;
+}
+.control-icon:active{
+    border: 1px solid #0075c0;
+}
+.icon-control{
+    background-position: -892px -360px;
+}
+.icon-cir {
+    bottom: 50%;
+    top:50%;
+    height: 24px;
+    width: 24px;  
+    border-radius: 50%;
+}
+.icon-for-loading{
+    height: 32px;
+    width: 32px;
+}
+.icon-mbox{
+    height: 48px;
+    width: 55px;
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+    align-items: center;
+    padding: none;
+}
+.icon-dropdowns{
+    height: 36px;
+    width: 32px;
+    align-items: center;
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+}
+.icon-dropdowns:hover{
+    background-color: #e0e0e0;
+}
+.icon-head-dropdown{
+    text-align: left;
+    height: 16px;
+    width: 16px;
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+    transform: rotate(90deg);
+}
+.icon-filter-dropdown{
+    height: 24px;
+    width: 24px;
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+    transform: rotate(90deg);
+}
+.icon-drop-header{
+    background-position:  -464px -408px;
+}
+.icon-downs{
+    background-position: -551px -350px;
+}
+.icon-link{
+    height: 16px;
+    width: 16px;
+    color: #0075c0;
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+}
+.header-icon{
+    height: 48px;
+    width: 44px;
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+    text-align: center;
+    padding: none;
+}
+.icon-select{
+    height: 30px;
+    width: 30px;
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+    align-items: center;
+}
+.icon-warning-red{
+    background-position: -24px -954px;
+}
+.icon-warning-yellow{
+    background-position: -598px -463px;
+}
+.icon-link:hover{
+    cursor: pointer;
+}
+.icon-loading{
+    background-image: url(/assets/loading.svg);
+}
+.icon-header{
+    height: 8px;
+    width: 8px;
+    background-color: #4ea344;
+    border-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #111111;   
+    margin-right: 4px;
+}
+.header-icon:hover{
+    cursor: pointer;
+    background-color: #000000;
+}
+.icon-center{
+    /* position: relative; */
+    text-align: center;
+    height: 24px;
+    width: 24px;
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+}
+
+
+.icon-tagl{
+    display: block;
+    margin-top: 1px;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-color:none;
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+}
+.icon-avatar{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    border: 2px solid #F5F5F5;
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+}
+.icon-avt{
+    background-position: -352px -894px;
+}
+.icon-ipt{
+    text-align: left;
+    height: 16px;
+    width: 16px;
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 35px;
+    border: none;
+    padding-right: 6px;
+  }
+.icon-of-bell{
+    width: 24px;
+    height: 27px;
+    padding: 2px 2px;
+    background-image: url(/assets/img/Sprites.64af8f61.svg);
+}
+.header-avatar:hover{
+    cursor: pointer;
+}
+
+.more-green:hover{
+    background-color: #2ca01c;
+}
+.icon-success{
+    background-position: -1602px -258px;
+}
+.icon-question{
+    background-position: -88px -145px;
+}
+.icon-close{
+    background-position: -144px -145px;
+}
+.icon-setting{
+    background-position: -88px -256px;
+}
+
+.icon-excel{
+    background-position: -704px -256px;
+}
+.icon-arrow-left{
+    background-position: -29px -356px;
+}
+.icon-arrow-right{
+    background-position: -75px -356px;
+}
+.icon-refresh{
+    background-position: -425px -201px;
+}
+.icon-refresh{
+    cursor: pointer;
+}
+.icon-down{
+    background-position: -550px -355px;
+}
+
+.icon-left{
+    background-position: -224px -358px;
+}
+
+.icon-dropdown{
+    background-position: -608px -400px;
+}
+
+.icon-sear{
+    background-position: -316px -148px;
+}
+
+.icon-logo{
+    src: url(/assets/img/Logo_Module_TiengViet_White.66947422.svg);
+    /* background-position: -1232px -1015px; */
+}
+
+.icon-loadfile{
+    background-position: -477px -258px;
+}
+
+.icon-loadfile:hover{
+    cursor: pointer;
+}
+
+.icon-bell{
+    background-position: -788px -30px;
+}
+.icon-dropdown-header{
+    background-position: -80px -360px;
+}
+
+
+.icon-chat{
+    background-position: -356px -78px;
+}
+
+.icon-ques{
+    background-position: -189px -79px;
+}
+
+.icon-set{
+    background-position: -133px -78px;
+}
+
+.icon-more{
+    background-position: -20px -78px;
+}
+
+.icon-0{
+    color: #fff;
+    background-position: -428px -92px;
+}
+
+.icon-0:hover{
+    cursor: pointer;
+}
+
+.icon-1{
+    
+    background-position: -33px -1630px;
+}
+
+.icon-2{
+    background-position: -78px -1631px;
+}
+
+.icon-3{
+    background-position: -121px -1633px;
+}
+
+.icon-4{
+    background-position: -165px -1632px;
+}
+
+.icon-5{
+    background-position: -206px -1631px;
+}
+
+.icon-6{
+    background-position: -254px -1632px;
+}
+
+.icon-7{
+    background-position: -294px -1632px;
+}
+
+.icon-8{
+    background-position: -339px -1633px;
+}
+
+.icon-9{
+    background-position: -382px -1632px;
+}
+
+.icon-10{
+    background-position: -427px -1634px;
+}
+
+.icon-11{
+    background-position: -427px -1634px;
+}
+
+.icon-12{
+    background-position: -471px -1633px;
+}
+
+.icon-13{
+    background-position: -514px -1632px;
+}
+
+.icon-14{
+    background-position: -382px -1664px;
+}
+
+.icon-15{
+    background-position: -552px -1636px;
+}
+
+.icon-16{
+    background-position: -207px -1667px;
+}
+
+.icon-17{
+    background-position: -1210px -32px;
+}
+
+.icon-18{
+    background-position: -90px -257px;
+}
+
+.icon-19{
+    background-position: -843px -30px;
+}
+
+.icon-19:hover{
+    cursor: pointer;
+}
+.icon-21{
+    background-position: -1789px -465px;
+}
+.icon-21:hover{
+    cursor: pointer;
+    background-color: #e0e0e0;
+}
+.icon-20{
+    background-position: -1792px -468px;
+}
+
+.icon-20{
+    cursor: pointer;
+}

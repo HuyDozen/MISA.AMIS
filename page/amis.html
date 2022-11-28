@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMIS</title>
+    <link rel="stylesheet" href="../css/main/style.css">
+
+</head>
+<body>
+    <div class="container">   
+        <div class="ct__sidebar">           
+            <div class="sbr--header">
+                <div class="icon-ipt icon-0"></div>
+                <img class="sbr-logo" src="/assets/img/Logo_Module_TiengViet_White.66947422.svg" alt="Logo">    
+            </div>
+            <div class="sbr--body">
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-1"></div>
+                    <div class="text-grey">Tổng quan</div>
+                    <span>Tổng quan</span>
+                </div>
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-2"></div>
+                    <div class="text-grey">Tiền mặt</div>
+                    <span>Tiền mặt</span>
+                </div>
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-3"></div>
+                    <div class="text-grey">Tiền gửi</div>
+                    <span>Tiền gửi</span>
+                </div>
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-4"></div>
+                    <div class="text-grey">Mua hàng</div>
+                    <span>Mua hàng</span>
+                </div>
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-5"></div>
+                    <div class="text-grey">Bán hàng</div>
+                    <span>Bán hàng</span>
+                </div>
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-6"></div>
+                    <div class="text-grey">Quản lý hoá đơn</div>
+                    <span>Quản lý hoá đơn</span>
+                </div>
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-7"></div>
+                    <div class="text-grey">Kho</div>
+                    <span>Kho</span>
+                </div>
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-8"></div>
+                    <div class="text-grey">Công cụ dụng cụ</div>
+                    <span>Công cụ dụng cụ</span>
+                </div>
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-9"></div>
+                    <div class="text-grey">Tài sản cố định</div>
+                    <span>Tài sản cố định</span>
+                </div>
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-11"></div>
+                    <div class="text-grey">Thuế</div>
+                    <span>Thuế</span>
+                </div>
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-12"></div>
+                    <div class="text-grey">Giá thành</div>
+                    <span>Giá thành</span>
+                </div>
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-13"></div>
+                    <div class="text-grey">Tổng hợp</div>
+                    <span>Tổng hợp</span>
+                </div>
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-14"></div>
+                    <div class="text-grey">Ngân sách</div>
+                    <span>Ngân sách</span>
+                </div>
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-15"></div>
+                    <div class="text-grey">Báo cáo</div>
+                    <span>Báo cáo</span>
+                </div>
+                <div class="sbr--body--item tooltip">
+                    <div class="text-body2 icon-tagl icon-16"></div>
+                    <div class="text-grey">Phân tích tài chính</div>
+                    <span>Phân tích tài chính</span>
+                </div>
+              
+            </div>
+        </div>
+        <div class="ct__item">
+            <div class="ct__navi">
+                <div class="navi--header1">
+                    <div class="header-menu">
+                        <div class="icon-center icon-19"></div>
+                    </div>
+                    <div class="combobox-header">
+                        <div class="text-header">CÔNG TY TNHH SẢN XUẤT - THƯƠNG MẠI - DỊCH VỤ QUI PHÚC</div>
+                        <div class="icon-head-dropdown icon-dropdown-header"></div>
+                    </div>
+                               
+                </div> 
+                <div class="navi--header2">
+                    <div class="icon-of-bell icon-bell"></div>
+                    <div class="combobox-header">
+                        <div class="icon-avatar icon-avt" alt="avatar"></div>
+                        <div>Tạ Quang Huy</div>
+                        <div class="icon-ipt icon-drop-header"></div>
+                    </div>
+                    
+                </div>
+            </div>               
+            <div class="ct__maincontent">
+                    <div class="maincontent--header">
+                            <div class="text-title">Nhân viên</div>
+                            <button id="btnAdd" class="btn-add">Thêm mới nhân viên</button>                      
+                    </div>  
+                        
+                    <div class="table--tbr">
+                        <div class="table--tbr-head">
+                            <div class="tb-head-tool">
+                                <div class="input--icons">
+                                    <input id="search" class="inpt" type="text" value placeholder="Tìm theo mã, tên nhân viên">
+                                    <div class="icon-tagl icon-sear "></div>
+                                </div>
+                                <div id="btnRefresh" class="icon-center icon-refresh tooltip">
+                                    <span>Lấy lại dữ liệu</span>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="table">
+                            <table class="text-tb-main" id="tbEmployee">
+                                <col>
+                                <col>
+                                <col>
+                                <thead class="text-tb-head">
+                                    <tr>
+                                        <th propValue="checkbox" format="checkbox" class="tbl-center">
+                                            <div class="checkboxContainer">
+                                                <div class="checkbox-tbl"></div>
+                                            </div>
+                                        </th>
+                                        <th propValue="EmployeeCode" format="text-left" class="text-left">Mã nhân viên</th>
+                                        <th propValue="EmployeeName" format="emplName" class="text-left">Họ và tên</th>
+                                        <th propValue="Gender" format="gender" class="text-left">Giới tính</th>
+                                        <th propValue="DateOfBirth" format="date" class="text-center">Ngày sinh</th>
+                                        <th propValue="IdentityNumber" format="text-left" class="text-left">Số CMND</th>
+                                        <th propValue="IdentityDate" format="date" class="text-center">Ngày cấp</th>
+                                        <th propValue="IdentityPlace" format="text-left" class="text-left">Nơi cấp</th>
+                                        <th propValue="PositionName" format="text-left" class="text-left">Chức danh</th>
+                                        <th propValue="PhoneNumber" format="text-right" class="text-right">Điện thoại</th>
+                                        <th propValue="DepartmentName" format="text-left" class="text-left">Phòng ban</th>
+                                        <th propValue="Email" format="text-left" class="text-left">Email</th>
+                                        <th propValue="BankAccountNumber" format="text-right" class="text-right">Số tài khoản</th>
+                                        <th propValue="Salary" format="money" class="text-right">Mức lương cơ bản</th>
+                                        <th propValue="control">Chức năng</th>
+                                    </tr>
+                                </thead>
+                                <tbody >
+                    
+                                        
+
+                                </tbody>
+                            </table>
+                        </div>     
+                    </div>
+                    <div class="maincontent--paging">
+                        <div class="paging">
+                            <div class="text-paging">Tổng số: bản ghi</div>
+                            <div class="fliter">
+                                <div class="dropdown-filter">
+                                    <div text-filter>Số bản ghi/trang:</div>
+                                    <div class="icon-filter-dropdown icon-arrow-right"></div>
+                                </div>
+                                <div class="text-filter">bản ghi</div>
+                                <div class="icon-center icon-arrow-left"></div>
+                                <div class="icon-center icon-arrow-right"></div>
+                            </div>
+                            
+                        </div>
+                    </div>                       
+                </div>
+            </div>
+        </div>  
+    </div>
+
+  
+    <div id="dlgEmployeeInfor" class="dialog" hidden>
+        <div class="dialog__delete">
+            <div class="dlg__del-header">
+                <div class="dlg__del-header--title">
+                    <div class="title-dialog"> Thông tin nhân viên</div>
+                    <div class="check-title">
+                        <div class="checkbox"></div>
+                        <div>Là khách hàng</div>
+                    </div> 
+                    <div class="check-title">
+                        <div class="checkbox"></div>
+                        <div>Là nhà cung cấp</div>
+                    </div> 
+                    
+                </div>
+                <div class="dlg-header-icon">
+                    <div class="icon-center icon-question tooltip">
+                        <div class="arrow-up"></div>
+                        <div class="tooltipDlg" >Giúp (F1)</div>
+                    </div>
+                    <div class="btnClose icon-center icon-close tooltip">
+                        <div class="arrow-up"></div>
+                        <div class="tooltipDlg">Đóng (ESC)</div>
+                    </div>
+                </div>
+            </div>
+            <div class="dlg-infor-content">
+                <div class="dlg-content-row1">
+                    <div class="dlg-row1-col1">
+                        <div class="dlg-row-content">
+                            <div class="m-col">
+                                <div class="text-dlg">Mã <span class="span-red">*</span></div>
+                                <div class="input-EmplCode" >
+                                    <input  propValue="EmployeeCode" id="txtEmployeeCode" note="Mã nhân viên"  class="input-dlg input-dlg-id" type="text" required>
+                                    <span hidden>Mã không được để trống.</span>
+                                </div>
+                                
+                            </div>
+                            <div class="m-col">
+                                <div class="text-dlg">Tên <span class="span-red">*</span></div>
+                                <div class="input-EmplName" >
+                                    <input propValue="EmployeeName" id="txtEmployeeName" note="Tên nhân viên" class="input-dlg input-dlg-name" type="text" required>
+                                    <span hidden>Tên không được để trống.</span>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="dlg-row-content">
+                            <div class="m-col">
+                                <div class="text-dlg">Đơn vị <span class="span-red">*</span></div>
+                                <div class="input-EmplPosition" >
+                                    <select class="input-dlg input-dlg-full-width" name="" id="cbxDepartment">
+                                        <option class="option-department"  disabled selected value> -- select an option -- </option>
+                                        <option class="option-department" value="142cb08f-7c31-21fa-8e90-67245e8b283e">Phòng nhân sự</option>
+                                        <option class="option-department" value="17120d02-6ab5-3e43-18cb-66948daf6128">Phòng tuyển sinh</option>
+                                        <option class="option-department" value="469b3ece-744a-45d5-957d-e8c757976496">Phòng sản xuất</option>
+                                        <option class="option-department" value="4e272fc4-7875-78d6-7d32-6a1673ffca7c">Phòng đào tạo</option>
+                                      </select>
+                                    <span hidden>Đơn vị không được để trống.</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="dlg-row-content">
+                            <div class="m-col">
+                                <div class="text-dlg">Chức danh </div>
+                                <input id="txtEmployeePosition" class="input-dlg input-dlg-full-width" type="text" value="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dlg-row1-col2">
+                        <div class="dlg-row-content">
+                            <div class="m-col">
+                                <div class="text-dlg">Ngày sinh</div>
+                                <input class="date-type" type="date" name="dateofbirth" id="dateEmployee">
+                                <span hidden>Ngày sinh nhập chưa đúng định dạng.</span>
+                            </div>
+                            <div class="m-col">
+                                <div class="text-dlg">Giới tính</div>
+                                <div class="row-radio">
+                                    <label class="radio-container">Nam
+                                      <input type="radio" checked="checked" name="radio">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                    <label class="radio-container">Nữ
+                                      <input type="radio" name="radio">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                    <label class="radio-container">Khác
+                                      <input type="radio" name="radio">
+                                      <span class="checkmark"></span>
+                                    </label>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="dlg-row-content">
+                            <div class="m-col">
+                                <div class="text-dlg tooltip">Số CMND
+                                    <span>Số chứng minh nhân dân</span>
+                                </div>
+                                <input id="identifyNumEmployee" class="input-dlg input-dlg-identify" type="text" value="">
+                                
+                            </div>
+                            <div class="m-col">
+                                <div id="identifyDate" class="text-dlg">Ngày cấp</div>
+                                <input class="" type="date" name="dateofbirth" id="dateIdentify">
+                                <span hidden>Ngày cấp nhập chưa đúng định dạng.</span>
+                            </div>
+                        </div>
+                        <div class="dlg-row-content">
+                            <div class="m-col">
+                                <div class="text-dlg">Nơi cấp</div>
+                                <input id="identifyPlace" class="input-dlg input-dlg-full-width" type="text" value="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dlg-content-row3">
+                    <div class="m-col">
+                        <div class="text-dlg">Địa chỉ</div>
+                        <input id="addressEpl" class="input-dlg input-dlg-address" type="text" value="">
+                    </div>
+                    <div class="dlg-row-content">
+                        <div class="m-col">
+                            <div class="text-dlg">ĐT di động</div>
+                            <div class="input-EmlPhoneNumber">
+                                <input id="phoneNumberEpl" class="input-dlg input-dlg-phone-mail" type="text">
+                                <span hidden>Số điện thoại phải có 10 chữ số.</span>
+                            </div>
+                        </div>
+                        <div class="m-col">
+                            <div class="text-dlg">ĐT cố định</div>
+                            <div class="input-EmplLandlinePhone">
+                                <input id="landlinePhoneEpl" class="input-dlg input-dlg-phone-mail" type="text">
+                                <span hidden>Điện thoại cố định nhập chưa đúng định dạng</span>
+                            </div>
+                        </div>
+                        <div class="m-col">
+                            <div class="text-dlg">Email</div>
+                            <div class="input-EmplEmail">
+                                <input id="txtEmail" class="input-dlg input-dlg-phone-mail" type="email">
+                                <span hidden>Email nhập chưa đúng định dạng.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dlg-row-content">
+                        <div class="m-col">
+                            <div class="text-dlg">Tài khoản ngân hàng</div>
+                            <input id="accountBank" class="input-dlg input-dlg-phone-mail" type="text" value="">
+                        </div>
+                        <div class="m-col">
+                            <div class="text-dlg">Tên ngân hàng</div>
+                            <input id="nameBank" class="input-dlg input-dlg-phone-mail" type="text" value="">
+                        </div>
+                        <div class="m-col">
+                            <div class="text-dlg">Chi nhánh</div>
+                            <input id="branchBank" class="input-dlg input-dlg-phone-mail" type="text" value="">
+                        </div>
+                    </div>
+                </div>
+                <div class="dlg-content-row4">                
+                    <button class="btnClose btn btn-cancel ">Huỷ</button>
+                    <div class="btn-dlg-func">
+                        <button id="btnSave"  class="btn btn-save">Cất</button>
+                        <button id="btnSave-Add" class="btn btn-save-add">Cất và thêm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="dlgWarningRed" class="dialog" hidden>
+        <div class="mbox-form">
+            <div class="mbox-content">
+                <div class="mbox-title">
+                    <div class="mbox-row-content">
+                        <div class="icon-mbox icon-warning-red"></div>
+                        <div class="text-warning">Tên không được để trống</div>
+                    </div>            
+                </div>
+                <div class="mbox-line"></div>
+                <div class="mbox-btn">
+                    <button class="btnClose btn btn-save-add">Đóng</button>
+                </div>      
+            </div>
+        </div>
+    </div>
+    <div id="dlgWarningYellow" class="dialog" hidden>
+        <div class="mbox-form">
+            <div class="mbox-warning-content">
+                <div class="mbox-title">
+                    <div class="mbox-row-content">
+                        <div class="icon-mbox icon-warning-yellow"></div>
+                        <div class="text-warning">Mã nhân viên đã tồn tại trong hệ thống, vui lòng kiểm tra lại</div>
+                    </div>            
+                </div>
+                <div class="mbox-line"></div>
+                <div class="mbox-button">
+                    <div class="mbox-btn">
+                        <button class="btnClose btn btn-deline">Không</button>
+                    </div>
+                    
+                    <div class="mbox-btn">
+                        <button id="btnAccept" class="btn btn-accept">Có</button>
+                    </div> 
+                </div>
+                     
+            </div>
+        </div>
+    </div>
+    <div id="dlgSuccess" class="dialog" hidden>
+        <div class="success-form">
+            <div class="success-content">
+                <div class="icon-tagl icon-success"></div>
+                <div class="text-success-form">
+                    <span class="text-success">Thành công!</span>
+                    oke
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="dlg-loading" class="dialog" hidden>
+        <div class="loading">
+            <iframe src="/assets/loading.svg" frameborder="0"></iframe>
+        </div>
+    </div>
+    
+    <script src="../js/framework/jquery-3.6.0.min.js"></script>
+
+    <script src="../js/base"></script>
+
+    <script src="../js/page/employee.js"></script>  
+
+</body>
+</html>

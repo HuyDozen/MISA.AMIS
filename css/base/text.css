@@ -1,0 +1,137 @@
+
+.textIta{
+    font-family: notosans-italic;
+}
+
+.text-body2{
+    font-family: notosans-regular;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 0px;
+}
+.text-header{
+    font-family: notosans-bold;
+}
+
+.text-tb-main{
+    position: relative;
+    font-family: notosans-regular;
+    font-weight: 400;
+    font-size: 13px;
+    color: #111111;
+}
+
+.text-tb-head{
+    font-family: notosans-regular;
+    font-weight: 700;
+    font-size: 12px;
+    color: #111111;
+    /* chu trong van ban thanh chu hoa */
+    text-transform: uppercase;
+}
+
+.text-heading3{
+    font-family: notosans-regular;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 20px;
+   
+}
+
+.text-link{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 29px;
+}
+
+.text-subheader{
+    font-family: notosans-regular;
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.text-body3{
+    font-family: notosans-regular;
+    font-weight: 400px;
+    font-size: 13px;
+    line-height: 17px;
+
+}
+
+.text-dlg{
+    font-family: notosans-bold;
+    font-size: 12px;
+    font-weight: 700px;
+    color: #111111;
+}
+.text-paging{
+    font-family: notosans-regular;
+    font-weight: 400;
+    font-size: 14px;
+    color: #212121;
+}
+.text-title{
+    font-family: notosans-bold;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1F1F20;
+    /* text-align: left; */
+}
+
+.text-lik{
+    color: #0075c0;
+    text-decoration: none;
+}
+
+.text-select{
+    
+    height: 100%;
+    padding: 6px 10px;
+    justify-content: center;
+}
+.text-dropdown{
+    font-family: notosans-regular;
+    font-weight: 400;
+    font-size: 14px;
+    /* letter-spacing: 14px; */
+    line-height: 18px;
+    text-align: left;
+    padding: 8px 0 9px 12px;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-control{
+    color: #0075c0;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 13px;
+}
+.text-grey{
+    color: #BDBDBD;
+}
+.text-control:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.text-filter{
+    padding-bottom: 2px;
+}
+.text-success{
+    color: #067933;
+}

@@ -1,0 +1,28 @@
+.navi--header1,.navi--header2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    max-width: 1000px;
+    margin-left: 6px;
+}
+.navi--header2{
+    padding-right: 24px;
+    column-gap: 10px;
+}
+
+.header-menu{
+    display: flex;
+    height: 100%;
+    width: 24px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.combobox-header{
+    display: flex;
+    align-items: center;
+    height: 36px;
+    padding: 0 8px 0 12px;
+    column-gap: 8px;
+}

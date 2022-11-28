@@ -1,0 +1,49 @@
+@import url(/css/base/button.css);
+@import url(/css/base/combobox.css);
+@import url(/css/base/dialog.css);
+@import url(/css/base/dropdownlist.css);
+@import url(/css/base/input.css);
+@import url(/css/base/popup.css);
+@import url(/css/base/toastmessage.css);
+@import url(/css/base/layout.css);
+@import url(/css/base/fonttext.css);
+@import url(/css/base/icon.css);
+@import url(/css/layout/sidebar.css);
+@import url(/css/layout/navigation.css);
+@import url(/css/layout/table.css);
+@import url(/css/layout/content.css);
+@import url(/css/base/text.css);
+@import url(/css/base/table.css);
+@import url(/css/base/datepicker.css);
+@import url(/css/base/radio.css);
+@import url(/css/base/checbox.css);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: notosans-regular;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000000;
+}
+.border-warning{
+  border-color: #ff0000;
+}
+body{
+    height: 100vh;
+}
+
+.m-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.span-red{
+  color: red;
+}
+
+/* @media screen and (max-width: 600px) {
+    div.ct__sidebar {
+      display: none;
+    }
+  } */
